@@ -18,7 +18,7 @@
 
 
 html{
-	background-image:url("retina_wood.png");
+	background-image:url(".png");
 	margin:0;
 }
 body{
@@ -55,8 +55,12 @@ a:visited {
 
 #navbar{
 	margin:0;
+	border-top:5px solid #CC0066;
+	margin-top:30px;
 	border-bottom:5px solid #CC0066;
 	margin-bottom:30px;
+	background-image:url("washi.png");
+	font-family: 'Over The Rainbow', cursive
 }
 #navbar ul{
 	margin:0;
@@ -69,40 +73,20 @@ a:visited {
 	width:100px;
 	font-size:30px;
 	line-height:30px;
-	
-}
+
 
 #about{
-margin:0;
+margin-top:30px;
+margin-bottom:30px;
 text-align:center;
 font-size:30px;
 font-family: 'Pacifico', cursive;
 font-weight:900;
-padding-top:0cm;
-padding-bottom:0cm;
 }
 
 #aboutme{
 	list-style-type:vertical;
 }
-
-#morelinks
-{
-list-style-type:none;
-margin:0;
-text-align:center;
-padding-top:0cm;
-padding-bottom:0;
-font-size:30px;
-font-family: 'Over The Rainbow', cursive;
-word-spacing:50px;
-font-weight:900;
-
-
-}
-
-
-
 
 
 a:hover {color:FF0066;}
@@ -112,18 +96,19 @@ li {
 	text-align:center;}
 
 
-
-#social ul 
+#social ul li
 	{margin:0;
 	padding: 0;
 	list-style-type:none;
-	text-align:  center;}
+	text-align:  center;
+	}
 
 #socialicons {
 	text-align: center;
 }
 
 #socialicons li {
+	margin-top:30px;
 	display:inline-block;
 	text-align:center;
 	width:100px;
@@ -140,3 +125,63 @@ li {
 	opacity:.7;
 }
 
+#contactme {
+	margin:0;
+	border-top:5px solid #CC0066;
+	margin-top:30px;
+	border-bottom:5px solid #CC0066;
+	margin-bottom:30px;
+	background-image:url("washi.png");
+	font-family: 'Over The Rainbow', cursive;
+	font-size:30px;
+	line-height:30px;
+	margin:0;
+	text-align:center;
+	padding:0;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+
+#myresume {
+	border-top:5px solid #CC0066;
+	margin-top:30px;
+	border-bottom:5px solid #CC0066;
+	margin-bottom:30px;
+	background-image:url("washi.png");
+	font-family: 'Over The Rainbow', cursive;
+	font-size:30px;
+	line-height:30px;
+	margin:0;
+	text-align:center;
+	padding:0;
+	padding-top:10px;
+	padding-bottom:10px;}
+
+	#blankspace {
+		background-color:white;
+		height:30px;
+		margin:auto;
+	}
+
+
+#ilike {
+	border-top:5px solid #CC0066;
+	margin-top:30px;
+	border-bottom:5px solid #CC0066;
+	margin-bottom:30px;
+	background-image:url("washi.png");
+	font-family: 'Over The Rainbow', cursive;
+	font-size:30px;
+	line-height:30px;
+	margin:0;
+	text-align:center;
+	padding:0;
+	padding-top:10px;
+	padding-bottom:10px;}
+
+	#blankspacetwo {
+		background-color:white;
+		height:5px;
+		margin:auto;
+	}
