@@ -141,7 +141,15 @@ li {
 	padding-top:10px;
 	padding-bottom:10px;
 }
-
+#wrapper
+{
+width:100%;
+background-color:white;
+position:relative;
+border-radius: 10px;
+-moz-border-radius: 10px;
+padding:30px;
+}
 
 #myresume {
 	border-top:5px solid #CC0066;
