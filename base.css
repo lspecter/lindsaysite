@@ -13,83 +13,204 @@
 	Leore
 }
 
-
+font-family: 'Cabin', sans-serif;
+font-family: 'Lobster', cursive;
 
 
 
 html{
-	background-image:url(".png");
-	margin:0;
-}
+	background-image:url(".jpg");
+	margin:0;}
+
 body{
 	margin:0;
-	padding:0;
-}
+	padding:0;}
+
 ul{
 	padding:0px;
-	margin:0;
-}
-a{
-	text-decoration:none;
-}
-a:link{
-	color:#000000;
-}
-a:visited {
-	color:#CC0066;
-}
+	margin:0;}
 
+a{
+	text-decoration:none;}
+
+a:link{
+	color:#000000;}
+
+a:visited {
+	color:#9797CA;}
 
 
 #title{
-	color: black;
+	color: #140207;
 	font-size: 50px;
-	text-align: center;
-	font-family: 'Pacifico', cursive;
-	padding-top:2cm;
-	vertical-align:top;
-	margin:0;
-
-}
+	text-align: left;
+	font-family: 'Merriweather', serif;
+	vertical-align:top;	
+	background-image:url("images/washi.png");}
 
 
 #navbar{
-	margin:0;
-	border-top:5px solid #CC0066;
-	margin-top:30px;
-	border-bottom:5px solid #CC0066;
-	margin-bottom:30px;
-	background-image:url("washi.png");
-	font-family: 'Over The Rainbow', cursive
-}
-#navbar ul{
-	margin:0;
-	text-align:center;
-	padding:0;
-	padding-top:10px;
-	padding-bottom:10px;
-}
-#navbar ul li{
-	width:100px;
-	font-size:30px;
-	line-height:30px;
+	border-bottom:5px solid #9797CA;
+	background-image:url("images/washi.png");
+	font-family: 'Cabin', cursive;}
 
-}
+#navbar ul{
+	text-align:left;
+	padding-top:10px;
+	padding-bottom:10px;}
+
+#navbar ul li{
+	width:130px;
+	font-size:30px;
+	line-height:30px; }
+
+#allaboutme {
+	margin-top:30px;
+	margin-bottom:30px;
+	line-height: 70px;}
+
+.ienjoy { 
+font-size:45px;
+font-family: 'Cabin', cursive;
+font-color: #140207;}
+
+.solvingproblems {
+	font-size:45px;
+	font-family: 'Cabin', cursive;
+	color: #CEC6AE;
+	background-color: #C38FA2 ;}
+
+.icreate { 
+	font-size:45px;
+	font-family: 'Raleway', cursive;
+	color: #C38FA2;	}
+
+.targeted {
+	font-size:45px;
+	font-family: 'Raleway', cursive;
+	color: #CEC6AE;
+	background-color:#171727;}
+
+.andand {
+font-size:45px;
+font-family: 'Raleway', cursive;
+font-color: #140207 ;}
+
+.effective {
+	font-size:45px;
+	font-family: 'Raleway', cursive;
+	color:#171727;
+	background-color: #CEC6AE;}
+
+.solutions {
+	font-size:45px;
+	font-family: 'Raleway', cursive;
+	font-style: italic;
+	color: #C38FA2;	}
+
+.istrive{
+	font-size:45px;
+	font-family: 'Raleway', cursive;
+	color:#B0B0CA;
+	background-color: #CEBF90;}
+
+.for{
+	font-size:45px;
+	font-family: 'Raleway', cursive;
+	color:#140207;}
+
+.simplicity{
+	font-size:45px;
+	font-family: 'Raleway', cursive;
+	color:#171727;
+	background-color: #b0b0CA;}
+
+.iwantto{
+	font-size:45px;
+	font-family: 'Raleway', cursive;
+	color:#b0b0CA;	}
+
+.succeed{
+	font-size:45px;
+	font-family: 'Raleway', cursive;
+	color:#b0b0CA;
+	background-color: #111116 ;}
+
+.ilikepeople{
+	font-size:45px;
+	font-family: 'Raleway', cursive;
+	color: #111116 ;}
+
+.people{
+	font-size:45px;
+	font-family: 'Raleway', cursive;
+	color: #111116 ;
+	background-color: #CEBF90 ;}
+
+.eye {
+	font-size:45px;
+	font-family: 'Raleway', cursive;
+	color:#b0b0CA;	}
+
+.focus {
+	font-size:45px;
+	font-family: 'Raleway', cursive;
+	color: #C38FA2;	}
+
+.oncomm {
+	font-size:45px;
+	font-family: 'Raleway', cursive;
+	color:#b0b0CA;	}
+
+.communication {
+	font-size:45px;
+	font-family: 'Raleway', cursive;
+	color:#CEBF90;
+	background-color: #B0B0CA;}
+
+.ihavea {
+	font-size:45px;
+	font-family: 'Raleway', cursive;
+	color: #C38FA2;	}
+
+.greatattitude {
+	font-size:45px;
+	font-family: 'Raleway', cursive;
+	color:#311A21;
+	background-color: #cdadb7 ;}
+
+.ilovewhatido {
+	font-size:45px;
+	font-style: italic;
+	font-family: 'Raleway', cursive;
+	color: #111116;}
+
+.whatido {
+	font-size:45px;
+	font-family: 'Raleway', cursive;
+	color:#cdadb7;
+	background-color: #111116 ;}
+
 #about{
 margin-top:30px;
 margin-bottom:30px;
 text-align:center;
 font-size:30px;
-font-family: 'Pacifico', cursive;
-font-weight:900;
-}
+font-family: 'Cabin', cursive;
+font-weight:900;}
 
 #aboutme{
 	list-style-type:vertical;
-}
+	font-family: 'Cabin', cursive;
+	font-size: 15px;
+	padding-bottom: 30px;}
 
+#resumetext{
+	font-family: 'Cabin', cursive;
+	font-size: 15px;
+	padding-bottom: 30px;}
 
-a:hover {color:#FF0066;}
+a:hover {color:#C38FA2;}
 
 li {
 	display:inline-block;
@@ -127,12 +248,12 @@ li {
 
 #contactme {
 	margin:0;
-	border-top:5px solid #CC0066;
+	border-top:5px solid #9797CA;
 	margin-top:30px;
-	border-bottom:5px solid #CC0066;
+	border-bottom:5px solid #9797CA;
 	margin-bottom:30px;
-	background-image:url("washi.png");
-	font-family: 'Over The Rainbow', cursive;
+	background-image:url("images/washi.png");
+	font-family: 'Cabin', cursive;
 	font-size:30px;
 	line-height:30px;
 	margin:0;
@@ -148,16 +269,17 @@ background-color:white;
 position:relative;
 border-radius: 10px;
 -moz-border-radius: 10px;
-padding:30px;
+padding-top:30px;
+padding-bottom:30px;
 }
 
 #myresume {
-	border-top:5px solid #CC0066;
+	border-top:5px solid #9797CA;
 	margin-top:30px;
-	border-bottom:5px solid #CC0066;
+	border-bottom:5px solid #9797CA;
 	margin-bottom:30px;
-	background-image:url("washi.png");
-	font-family: 'Over The Rainbow', cursive;
+	background-image:url("images/washi.png");
+	font-family: 'Cabin', cursive;
 	font-size:30px;
 	line-height:30px;
 	margin:0;
@@ -169,12 +291,12 @@ padding:30px;
 
 
 #ilike {
-	border-top:5px solid #CC0066;
+	border-top:5px solid #9797CA;
 	margin-top:30px;
-	border-bottom:5px solid #CC0066;
+	border-bottom:5px solid #9797CA;
 	margin-bottom:30px;
-	background-image:url("washi.png");
-	font-family: 'Over The Rainbow', cursive;
+	background-image:url("images/washi.png");
+	font-family: 'Cabin', cursive;
 	font-size:30px;
 	line-height:30px;
 	margin:0;
@@ -183,8 +305,4 @@ padding:30px;
 	padding-top:10px;
 	padding-bottom:10px;}
 
-	#blankspacetwo {
-		background-color:white;
-		height:5px;
-		margin:auto;
-	}
+	
