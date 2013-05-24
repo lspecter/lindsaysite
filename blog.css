@@ -13,7 +13,8 @@ text-align: center;
 font-family: 'Pacifico',serif;
 vertical-align:top;	
 background-color:#B0B0CA;
-;}
+
+}
 
 #tothosewho{
 	
@@ -24,6 +25,7 @@ background-color:#B0B0CA;
 	padding-bottom:10px;
 	font-size:20px;
 	line-height:30px;
+
 }
 
 #theworldis{
@@ -35,6 +37,7 @@ background-color:#B0B0CA;
 	font-size:20px;
 	line-height:30px;
 	border-bottom:5px solid #CEC6AE;
+	
 }
 
 .posts{
@@ -59,7 +62,15 @@ background-color:#B0B0CA;
 	list-style-type:none;
 	display:inline-block;
 	text-align:center;
-	width:300px;
-	margin:auto;
+	width:900px;
+	
 }
+#aquietfewweekspics {
+	list-style-type:none;
+	display:inline-block;
+	text-align:center;
+	width:900px;
+	
+}
+
 

@@ -57,12 +57,14 @@ a:visited {
 #navbar ul{
 	text-align:left;
 	padding-top:10px;
-	padding-bottom:10px;}
+	padding-bottom:10px;
+word-spacing:30px;}
 
 #navbar ul li{
-	width:130px;
+	width:auto;
 	font-size:30px;
-	line-height:30px; }
+	line-height:30px; 
+	}
 
 #allaboutme {
 	margin-top:30px;
