@@ -3,8 +3,11 @@ html{
 		margin:0;}
 
 body{
-	margin:0;
-	padding:0;}
+	}
+
+p{
+	margin-top:10px;
+}
 
 #lindsayinisrael{
 color: #140207;
@@ -57,12 +60,21 @@ background-color:#B0B0CA;
 		margin-top:20px;
 		line-height:23px;
 	}
+.posttitle {
+color: #140207;
+font-size: 28px;
+font-family: 'Pacifico',serif;
+}
 
+.dates {
+	color: #140207;
+font-size: 20px;
+font-family: 'Pacifico',serif;
+}
 #tlvroundtwopics {
 	list-style-type:none;
 	display:inline-block;
 	text-align:center;
-	width:900px;
 	
 }
 #aquietfewweekspics {
@@ -72,5 +84,6 @@ background-color:#B0B0CA;
 	width:900px;
 	
 }
+
 
 
